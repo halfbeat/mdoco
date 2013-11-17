@@ -42,21 +42,11 @@
   </component>
   <component name="ChangeListManager">
     <list id="6fa852ee-e3c3-48dd-95e4-a41802ccf842" name="Default" comment="" />
-    <list default="true" id="70441741-e32c-4182-9084-8b2d5a934cc1" name="mdoco-1 Implementar timeout inactividad sesión" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabaseHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/Usuario.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosDatasource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/usuario_list_item.xml" />
-      <change type="DELETED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\util\DAO.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\util\DBItem.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\activities\DetailActivity.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/detalle/DetailActivity.java" />
-      <change type="MOVED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\activities\LoginActivity.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/login/LoginActivity.java" />
-      <change type="MOVED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\activities\MainActivity.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/main/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SessionManager.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SessionManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/list_view.xml" afterPath="$PROJECT_DIR$/res/layout/list_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/login.xml" afterPath="$PROJECT_DIR$/res/layout/login.xml" />
+    <list default="true" id="70441741-e32c-4182-9084-8b2d5a934cc1" name="mdoco-1 Implementar timeout inactividad sesión" comment="mdoco-1 Implementar timeout inactividad sesión">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/BaseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/RemoteUsuariosService.java" />
+      <change type="MOVED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\usuarios\UsuariosDatasource.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/detalle/DetailActivity.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/detalle/DetailActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mdoco.iws" />
@@ -70,11 +60,11 @@
     <file path="/DAO.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384720020871" ignored="false" />
     <file path="/DBItem.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382184222222" ignored="false" />
     <file path="/DetailActivity.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384726171029" ignored="false" />
-    <file path="/Dummy.txt" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1384715454227" ignored="false" />
+    <file path="/Dummy.txt" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384726263592" ignored="false" />
     <file path="/LoginActivity.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382200738642" ignored="false" />
     <file path="/SessionManager.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382204157402" ignored="false" />
     <file path="/login.xml" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382205049666" ignored="false" />
-    <file path="/fragment.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384724465288" ignored="false" />
+    <file path="/fragment.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384728668782" ignored="false" />
     <file path="$PROJECT_DIR$/../aika/webtest/src/main/scala/view/IndexBean.scala" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1383772832704" ignored="false" />
     <file path="/main_menu.xml" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1383935270697" ignored="false" />
     <file path="/AlertDialogManager.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1383992602115" ignored="false" />
@@ -87,6 +77,9 @@
     <file path="/ListaUsuariosAdapter.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384725503205" ignored="false" />
     <file path="/UsuarioView.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384724479812" ignored="false" />
     <file path="/usuario_list_item.xml" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384725772612" ignored="false" />
+    <file path="/UsuariosService.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384729156686" ignored="false" />
+    <file path="/BaseService.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384728741924" ignored="false" />
+    <file path="/RemoteUsuariosService.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384729256831" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,14 +141,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UsuariosDatasource.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosDatasource.java">
+      <file leaf-file-name="UsuariosService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="23" selection-start="348" selection-end="348" vertical-scroll-proportion="0.26586103">
+            <state line="63" column="35" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#967#976#0" expanded="true" />
+                <element signature="e#682#691#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteUsuariosService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/RemoteUsuariosService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="84" selection-start="124" selection-end="124" vertical-scroll-proportion="0.07703927">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="31" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DOCODatabaseHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabaseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="20" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,15 +205,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/login.xml" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DAO.java" />
         <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabase.java" />
         <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/Usuario.java" />
         <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/main/BaseActivity.java" />
         <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/main/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabaseHelper.java" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosDatasource.java" />
         <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuarioAdapter.java" />
         <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuarioView.java" />
         <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/ListaUsuariosAdapter.java" />
@@ -199,6 +217,10 @@
         <option value="$PROJECT_DIR$/res/layout/usuario_list_item.xml" />
         <option value="$PROJECT_DIR$/res/layout/list_view.xml" />
         <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/detalle/DetailActivity.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosDatasource.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosService.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/RemoteUsuariosService.java" />
       </list>
     </option>
   </component>
@@ -273,10 +295,6 @@
               <option name="myItemId" value="mdoco" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -317,80 +335,8 @@
               <option name="myItemId" value="mdoco" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdoco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdoco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdoco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdoco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdoco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdoco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="detalle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdoco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdoco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdoco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mdoco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,6 +377,7 @@
       <recent name="C:\workspace\proyectos\mdoco\res\drawable-ldpi" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="es.jcyl.cs.mdoco.util" />
       <recent name="es.jcyl.cs.mdoco.usuarios" />
       <recent name="es.jcyl.cs.mdoco.main" />
     </key>
@@ -635,7 +582,11 @@
       <option name="type" value="BUG" />
       <updated>1384715712007</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mdoco-1 Implementar timeout inactividad sesión">
+      <created>1384726270055</created>
+      <updated>1384726270055</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <GitHub shared="false">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -656,7 +607,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23265742" sideWeight="0.7208009" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23470522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23470522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -732,7 +683,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial release" />
+    <option name="LAST_COMMIT_MESSAGE" value="mdoco-1 Implementar timeout inactividad sesión" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -747,6 +698,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Initial release" />
+    <MESSAGE value="mdoco-1 Implementar timeout inactividad sesión" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -756,34 +708,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/login/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="11" selection-start="936" selection-end="936" vertical-scroll-proportion="0.33285713">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/ImageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="461" selection-end="461" vertical-scroll-proportion="0.26714286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
@@ -808,13 +732,6 @@
     <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/main/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="34" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.68">
           <folding />
         </state>
       </provider>
@@ -873,19 +790,52 @@
         <state line="22" column="70" selection-start="730" selection-end="730" vertical-scroll-proportion="0.19857143">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1482#1921#0" expanded="true" />
-            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1424#1854#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosDatasource.java">
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/jesus.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/maria.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="348" selection-end="348" vertical-scroll-proportion="0.26586103">
+        <state line="11" column="31" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#967#976#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="35" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#682#691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/RemoteUsuariosService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="84" selection-start="124" selection-end="124" vertical-scroll-proportion="0.07703927">
+          <folding />
         </state>
       </provider>
     </entry>

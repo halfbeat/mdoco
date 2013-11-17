@@ -3,7 +3,6 @@ package es.jcyl.cs.mdoco.detalle;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ImageButton;
 import android.widget.ListView;
@@ -11,14 +10,14 @@ import es.jcyl.cs.mdoco.R;
 import es.jcyl.cs.mdoco.security.SessionManager;
 import es.jcyl.cs.mdoco.usuarios.Usuario;
 import es.jcyl.cs.mdoco.usuarios.UsuariosAdapter;
-import es.jcyl.cs.mdoco.usuarios.UsuariosDatasource;
+import es.jcyl.cs.mdoco.usuarios.UsuariosService;
 import es.jcyl.cs.mdoco.util.ImageAdapter;
 
 import java.util.List;
 
 public class DetailActivity extends Activity {
     protected SessionManager session;
-    private UsuariosDatasource usuariosDatasource;
+    private UsuariosService usuariosService;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,10 +29,10 @@ public class DetailActivity extends Activity {
         GridView gridView = (GridView) findViewById(R.id.grid_view);
         gridView.setAdapter(new ImageAdapter(this));
 
-        usuariosDatasource = new UsuariosDatasource(this);
-        usuariosDatasource.open();
+        usuariosService = new UsuariosService(this);
+        usuariosService.open();
         ListView  usuarios = (ListView) findViewById(R.id.usuarios);
-        List<Usuario> dbUsers = usuariosDatasource.obttenerTodosUsuarios();
+        List<Usuario> dbUsers = usuariosService.obtenerTodosUsuarios();
 
         UsuariosAdapter adapter = new UsuariosAdapter(this, dbUsers);
         usuarios.setAdapter(adapter);
@@ -42,8 +41,8 @@ public class DetailActivity extends Activity {
         ib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                usuariosDatasource.aniadirUsuario("PEPE","POPOP");
-                List<Usuario> dbUsers = usuariosDatasource.obttenerTodosUsuarios();
+                usuariosService.altaUsuario("PEPE", "POPOP");
+                List<Usuario> dbUsers = usuariosService.obtenerTodosUsuarios();
 
                 UsuariosAdapter adapter = new UsuariosAdapter(DetailActivity.this, dbUsers);
                 ((ListView) findViewById(R.id.usuarios)).setAdapter(adapter);
@@ -53,14 +52,14 @@ public class DetailActivity extends Activity {
 
     @Override
     protected void onResume() {
-        usuariosDatasource.open();
+        usuariosService.open();
         session.checkLogin();
         super.onResume();
     }
 
     @Override
     protected void onPause() {
-        usuariosDatasource.close();
+        usuariosService.close();
         super.onPause();
     }
 }
