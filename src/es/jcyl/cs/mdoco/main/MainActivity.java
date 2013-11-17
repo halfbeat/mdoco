@@ -1,4 +1,4 @@
-package es.jcyl.cs.mdoco.activities;
+package es.jcyl.cs.mdoco.main;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,20 +7,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import es.jcyl.cs.mdoco.R;
-import es.jcyl.cs.mdoco.activities.DetailActivity;
+import es.jcyl.cs.mdoco.detalle.DetailActivity;
 import es.jcyl.cs.mdoco.security.SessionManager;
-import es.jcyl.cs.mdoco.util.DAO;
 
 public class MainActivity extends Activity implements View.OnClickListener {
-    SessionManager session;
-    DAO datasource;
+    protected SessionManager session;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        datasource = new DAO(this);
-        datasource.open();
         session = new SessionManager(getApplicationContext());
         session.checkLogin();
     }
@@ -36,18 +32,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
         });
         return true;
-    }
-
-    @Override
-    protected void onResume() {
-        datasource.open();
-        super.onResume();
-    }
-
-    @Override
-    protected void onPause() {
-        datasource.close();
-        super.onPause();
     }
 
     @Override

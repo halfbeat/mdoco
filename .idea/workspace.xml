@@ -3,11 +3,22 @@
   <component name="AnalysisUIOptions">
     <option name="ANALYZE_TEST_SOURCES" value="false" />
   </component>
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="mdoco" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
   <component name="AndroidDesignerProfile">
     <option name="fullProfile">
       <profile>
         <option name="device" value="10.1in WXGA (Tablet)" />
-        <option name="deviceConfiguration" value="Landscape" />
+        <option name="deviceConfiguration" value="Portrait" />
         <option name="targetHashString" value="android-18" />
         <option name="theme" value="Theme" />
       </profile>
@@ -26,11 +37,26 @@
       </GlobalState>
     </option>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="mdoco" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fa852ee-e3c3-48dd-95e4-a41802ccf842" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/es/jcyl/cs/mdoco/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/es/jcyl/cs/mdoco/Manifest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/es/jcyl/cs/mdoco/R.java" />
+    <list id="6fa852ee-e3c3-48dd-95e4-a41802ccf842" name="Default" comment="" />
+    <list default="true" id="70441741-e32c-4182-9084-8b2d5a934cc1" name="mdoco-1 Implementar timeout inactividad sesión" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabaseHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/Usuario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosDatasource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/usuario_list_item.xml" />
+      <change type="DELETED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\util\DAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\util\DBItem.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\activities\DetailActivity.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/detalle/DetailActivity.java" />
+      <change type="MOVED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\activities\LoginActivity.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/login/LoginActivity.java" />
+      <change type="MOVED" beforePath="C:\workspace\proyectos\mdoco\src\es\jcyl\cs\mdoco\activities\MainActivity.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/main/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SessionManager.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SessionManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/list_view.xml" afterPath="$PROJECT_DIR$/res/layout/list_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/login.xml" afterPath="$PROJECT_DIR$/res/layout/login.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mdoco.iws" />
@@ -39,19 +65,28 @@
     <file path="/main.xml" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1381992910890" ignored="false" />
     <file path="/strings.xml" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382200455209" ignored="false" />
     <file path="/ImageAdapter.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1381994775881" ignored="false" />
-    <file path="/MainActivity.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1383935116016" ignored="false" />
+    <file path="/MainActivity.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384717638903" ignored="false" />
     <file path="/menu.xml" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382138847521" ignored="false" />
-    <file path="/DAO.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382184238766" ignored="false" />
+    <file path="/DAO.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384720020871" ignored="false" />
     <file path="/DBItem.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382184222222" ignored="false" />
-    <file path="/DetailActivity.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382197676161" ignored="false" />
-    <file path="/Dummy.txt" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1384689694905" ignored="false" />
+    <file path="/DetailActivity.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384726171029" ignored="false" />
+    <file path="/Dummy.txt" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1384715454227" ignored="false" />
     <file path="/LoginActivity.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382200738642" ignored="false" />
     <file path="/SessionManager.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382204157402" ignored="false" />
     <file path="/login.xml" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382205049666" ignored="false" />
-    <file path="/fragment.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1383225517988" ignored="false" />
+    <file path="/fragment.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384724465288" ignored="false" />
     <file path="$PROJECT_DIR$/../aika/webtest/src/main/scala/view/IndexBean.scala" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1383772832704" ignored="false" />
     <file path="/main_menu.xml" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1383935270697" ignored="false" />
     <file path="/AlertDialogManager.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1383992602115" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/mdoco/BuildConfig.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384716882170" ignored="false" />
+    <file path="/BaseActivity.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384717760932" ignored="false" />
+    <file path="/DOCODatabase.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384718738130" ignored="false" />
+    <file path="/Usuario.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384719706523" ignored="false" />
+    <file path="/UsuariosDatasource.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384723963733" ignored="false" />
+    <file path="/UsuarioAdapter.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384725598617" ignored="false" />
+    <file path="/ListaUsuariosAdapter.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384725503205" ignored="false" />
+    <file path="/UsuarioView.java" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384724479812" ignored="false" />
+    <file path="/usuario_list_item.xml" changelist="70441741-e32c-4182-9084-8b2d5a934cc1" time="1384725772612" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +101,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -102,54 +138,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/SQLiteHelper.java" line="17" class="es.jcyl.cs.mdoco.util.SQLiteHelper" package="es.jcyl.cs.mdoco.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/SQLiteHelper.java" line="28" class="es.jcyl.cs.mdoco.util.SQLiteHelper" package="es.jcyl.cs.mdoco.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/SQLiteHelper.java" line="33" class="es.jcyl.cs.mdoco.util.SQLiteHelper" package="es.jcyl.cs.mdoco.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -158,106 +147,20 @@
     <favorites_list name="mdoco" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/activities/MainActivity.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="31" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.955036">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DAO.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DAO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="25" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DBItem.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DBItem.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="22" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main_menu.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/res/menu/main_menu.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="7" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/activities/LoginActivity.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="43" column="0" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SessionManager.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SessionManager.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="61" column="0" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AlertDialogManager.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/AlertDialogManager.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="34" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DialogInterface.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../../programas/adt-bundle-windows-x86_64-20130917/sdk/sources/android-16/android/content/DialogInterface.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="28" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main_menu.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/res/menu/main_menu.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="7" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SQLiteHelper.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/SQLiteHelper.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="50" selection-start="220" selection-end="236" vertical-scroll-proportion="0.11785095">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="UsuariosDatasource.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosDatasource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="23" selection-start="348" selection-end="348" vertical-scroll-proportion="0.26586103">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#967#976#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -280,22 +183,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/AlertDialogManager.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/login.xml" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/SessionManager.java" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DBItem.java" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/ImageAdapter.java" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SessionManager.java" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/MainActivity.java" />
-        <option value="$PROJECT_DIR$/res/menu/main_menu.xml" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/AlertDialogManager.java" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/MySQLiteHelper.java" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/SQLiteHelper.java" />
-        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/activities/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DAO.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabase.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/main/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/main/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosDatasource.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuarioAdapter.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuarioView.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/ListaUsuariosAdapter.java" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/usuario_list_item.xml" />
+        <option value="$PROJECT_DIR$/res/layout/list_view.xml" />
+        <option value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/detalle/DetailActivity.java" />
       </list>
     </option>
   </component>
@@ -314,7 +217,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -333,8 +236,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -363,11 +266,131 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usuarios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="detalle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdoco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,8 +399,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/es/jcyl/cs/mdoco" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -390,11 +415,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Emulator41" />
-    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -403,6 +429,10 @@
       <recent name="C:\workspace\proyectos\mdoco\res\layout" />
       <recent name="C:\workspace\proyectos\mdoco\res\drawable-hdpi" />
       <recent name="C:\workspace\proyectos\mdoco\res\drawable-ldpi" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="es.jcyl.cs.mdoco.usuarios" />
+      <recent name="es.jcyl.cs.mdoco.main" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.mdoco">
@@ -438,6 +468,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -464,19 +507,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -533,7 +563,7 @@
     </configuration>
     <configuration default="false" name="mdoco" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="mdoco" />
-      <option name="ACTIVITY_CLASS" value="es.jcyl.cs.mdoco.activities.MainActivity" />
+      <option name="ACTIVITY_CLASS" value="es.jcyl.cs.mdoco.main.MainActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
@@ -576,10 +606,10 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task id="Default" summary="Default task">
       <changelist id="6fa852ee-e3c3-48dd-95e4-a41802ccf842" name="Default" comment="" />
       <created>1381990585044</created>
-      <updated>1381990585044</updated>
+      <updated>1384715619865</updated>
     </task>
     <task id="LOCAL-00001" summary="Initial release">
       <created>1384689659076</created>
@@ -589,43 +619,72 @@
       <created>1384689696912</created>
       <updated>1384689696912</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
-    <servers />
+    <task id="LOCAL-00003" summary="Initial release">
+      <created>1384689771689</created>
+      <updated>1384689771689</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <changelist id="" name="" comment="" />
+      <created>1384715614425</created>
+      <updated>1384715711564</updated>
+    </task>
+    <task active="true" id="mdoco-1" summary="Implementar timeout inactividad sesión">
+      <changelist id="70441741-e32c-4182-9084-8b2d5a934cc1" name="mdoco-1 Implementar timeout inactividad sesión" comment="" />
+      <created>1384709152000</created>
+      <option name="issue" value="true" />
+      <option name="type" value="BUG" />
+      <updated>1384715712007</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers>
+      <GitHub shared="false">
+        <commitMessageFormat>{id} {summary}</commitMessageFormat>
+        <password>df9adfdedfd8dfc5dfc9dfdfdfcbdfc6dfcf</password>
+        <option name="loginAnonymously" value="false" />
+        <option name="repoAuthor" value="halfbeat" />
+        <option name="repoName" value="mdoco" />
+        <option name="shouldFormatCommitMessage" value="false" />
+        <option name="url" value="https://github.com" />
+        <option name="useHttpAuthentication" value="true" />
+        <option name="useProxy" value="false" />
+        <username>halfbeat</username>
+      </GitHub>
+    </servers>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23265742" sideWeight="0.7208009" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23470522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27919912" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15795091" sideWeight="0.7652948" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19243604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20117396" sideWeight="0.7208009" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3003337" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27919912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15848452" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19311875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23265742" sideWeight="0.6718576" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="DSM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="383" y="188" width="855" height="553" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20117396" sideWeight="0.6718576" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30142567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6028921" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29032257" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -697,104 +756,136 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/login/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="47" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/ImageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.09728183" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/activities/DetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="124" selection-start="518" selection-end="518" vertical-scroll-proportion="0.31616595" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/AlertDialogManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="34" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
+        <state line="14" column="13" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DAO.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DBItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/main_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../programas/adt-bundle-windows-x86_64-20130917/sdk/sources/android-16/android/content/DialogInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+        <state line="15" column="45" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SessionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.0">
+        <state line="29" column="11" selection-start="936" selection-end="936" vertical-scroll-proportion="0.33285713">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/activities/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/ImageAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0">
+        <state line="17" column="11" selection-start="461" selection-end="461" vertical-scroll-proportion="0.26714286">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/activities/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="31" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.955036">
+        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/SQLiteHelper.java">
+    <entry file="jar://$PROJECT_DIR$/../../programas/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-16/android.jar!/android/R.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="220" selection-end="236" vertical-scroll-proportion="0.11785095">
+        <state line="548" column="32" selection-start="39466" selection-end="39466" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../programas/adt-bundle-windows-x86_64-20130917/sdk/sources/android-16/android/database/sqlite/SQLiteOpenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="27" selection-start="8639" selection-end="8639" vertical-scroll-proportion="-1.17">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/main/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="38" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="280" selection-end="280" vertical-scroll-proportion="0.26714286">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/usuario_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="40" selection-start="902" selection-end="902" vertical-scroll-proportion="0.60444444">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="36" selection-start="273" selection-end="295" vertical-scroll-proportion="0.15111111">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="276" selection-end="276" vertical-scroll-proportion="0.15111111">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/detalle/DetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="70" selection-start="730" selection-end="730" vertical-scroll-proportion="0.19857143">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1482#1921#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/UsuariosDatasource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="348" selection-end="348" vertical-scroll-proportion="0.26586103">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#967#976#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

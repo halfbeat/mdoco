@@ -3,7 +3,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:padding="10dp">
 
     <TextView
             android:layout_width="wrap_content"
@@ -32,7 +33,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/txtUsername"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:singleLine="true"/>
         </TableRow>
 
         <TableRow
@@ -51,7 +55,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/txtPassword"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:password="true"
+                    android:singleLine="true"/>
         </TableRow>
     </TableLayout>
 
@@ -61,6 +69,7 @@
             android:text="@string/login_button"
             android:id="@+id/btnLogin"
             android:layout_gravity="right"
-            android:layout_marginRight="30dp"/>
+            android:layout_marginRight="30dp"
+            android:minWidth="200dp"/>
 
 </LinearLayout>

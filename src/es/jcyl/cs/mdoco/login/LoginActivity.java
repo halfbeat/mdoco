@@ -1,4 +1,4 @@
-package es.jcyl.cs.mdoco.activities;
+package es.jcyl.cs.mdoco.login;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,8 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import es.jcyl.cs.mdoco.security.SessionManager;
+import es.jcyl.cs.mdoco.main.MainActivity;
 import es.jcyl.cs.mdoco.util.AlertDialogManager;
+import es.jcyl.cs.mdoco.security.SessionManager;
 import es.jcyl.cs.mdoco.R;
 
 public class LoginActivity extends Activity {
