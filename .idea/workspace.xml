@@ -28,7 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fa852ee-e3c3-48dd-95e4-a41802ccf842" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/es/jcyl/cs/mdoco/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/es/jcyl/cs/mdoco/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/es/jcyl/cs/mdoco/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mdoco.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +44,7 @@
     <file path="/DAO.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382184238766" ignored="false" />
     <file path="/DBItem.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382184222222" ignored="false" />
     <file path="/DetailActivity.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382197676161" ignored="false" />
-    <file path="/Dummy.txt" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1384689643219" ignored="false" />
+    <file path="/Dummy.txt" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1384689694905" ignored="false" />
     <file path="/LoginActivity.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382200738642" ignored="false" />
     <file path="/SessionManager.java" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382204157402" ignored="false" />
     <file path="/login.xml" changelist="6fa852ee-e3c3-48dd-95e4-a41802ccf842" time="1382205049666" ignored="false" />
@@ -582,7 +585,11 @@
       <created>1384689659076</created>
       <updated>1384689659076</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial release">
+      <created>1384689696912</created>
+      <updated>1384689696912</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
