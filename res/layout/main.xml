@@ -1,69 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/tableLayout">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
 
     <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:layout_margin="10dp">
+            android:layout_weight="1">
 
-        <LinearLayout
-                android:orientation="vertical"
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+        <ImageButton
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_gravity="top"
-                >
-
-            <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Notificaciones"
-                    android:id="@+id/btnNotificaciones"/>
-        </LinearLayout>
-
-        <LinearLayout
-                android:orientation="vertical"
+                android:id="@+id/imageButton"
+                android:layout_weight="1"
+                android:layout_column="0"/>
+        <ImageButton
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_gravity="top"
-                android:layout_weight="1">
-
-            <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:background="#006">
-
-                <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:text="Fecha de inicio"
-                        android:layout_weight="1"/>
-
-                <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:text="Fecha de fin"
-                        android:layout_weight="1"/>
-
-                <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="8"
-                        android:text="Contenido"/>
-            </LinearLayout>
-
-            <ListView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/lvNotificaciones"/>
-        </LinearLayout>
+                android:id="@+id/imageButton"
+                android:layout_weight="1"
+                android:layout_column="2"/>
     </TableRow>
 </TableLayout>
