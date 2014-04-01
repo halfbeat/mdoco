@@ -48,46 +48,6 @@
   <component name="ChangeListManager">
     <list id="6fa852ee-e3c3-48dd-95e4-a41802ccf842" name="Default" comment="" />
     <list default="true" id="70441741-e32c-4182-9084-8b2d5a934cc1" name="mdoco-1 Implementar timeout inactividad sesión" comment="mdoco-1 Implementar timeout inactividad sesión">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/gear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/gear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/gear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/gear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/guava-15.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jersey-client-1.17.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jersey-core-1.17.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/osgi_R4_core-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/Credentials.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/ISO8601DateParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/JSONSerializable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/LoginActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/LoginResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/notificaciones/Notificacion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/notificaciones/Notificaciones.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/notificaciones/NotificacionesServiceProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/notificaciones/NotiticacionesAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/PreemptiveHttpClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/RemoteProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SecurityServiceProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/li_border.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/notificacion_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
-      <change type="DELETED" beforePath="E:\ANGEL\proyectos\mdoco\src\es\jcyl\cs\mdoco\login\LoginActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/es/jcyl/cs/mdoco/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/es/jcyl/cs/mdoco/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabaseHelper.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/util/DOCODatabaseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/main/MainActivity.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/main/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/RemoteUsuariosService.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/usuarios/RemoteUsuariosService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SessionManager.java" afterPath="$PROJECT_DIR$/src/es/jcyl/cs/mdoco/security/SessionManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ant.properties" afterPath="$PROJECT_DIR$/ant.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mdoco.iml" afterPath="$PROJECT_DIR$/mdoco.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mdoco.iws" />
@@ -801,7 +761,7 @@
       <option name="type" value="BUG" />
       <updated>1384715712007</updated>
       <workItem from="1396284532364" duration="1606000" />
-      <workItem from="1396334956488" duration="159000" />
+      <workItem from="1396334956488" duration="165000" />
     </task>
     <task id="LOCAL-00005" summary="mdoco-1 Implementar timeout inactividad sesión">
       <created>1384726270055</created>
@@ -811,7 +771,11 @@
       <created>1384729262538</created>
       <updated>1384729262538</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mdoco-1 Implementar timeout inactividad sesión">
+      <created>1396335124888</created>
+      <updated>1396335124888</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers>
       <GitHub shared="false" url="">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -829,7 +793,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1765000" />
+    <option name="totallyTimeSpent" value="1771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
