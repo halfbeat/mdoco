@@ -1,7 +1,10 @@
 package es.jcyl.cs.mdoco.usuarios;
 
-/**
- * Clase que implementa los sericios de usuario basados en los rest services remotos
- */
-public class RemoteUsuariosService {
+import android.content.Context;
+import es.jcyl.cs.mdoco.util.BaseService;
+
+public class RemoteUsuariosService extends BaseService {
+    public RemoteUsuariosService(Context context) {
+        super(context);
+    }
 }

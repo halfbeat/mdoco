@@ -3,10 +3,14 @@
           package="es.jcyl.cs.mdoco"
           android:versionCode="1"
           android:versionName="1.0">
+
     <uses-sdk android:minSdkVersion="16"/>
-    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name=".main.MainActivity"
-                  android:label="@string/app_name">
+    <application
+            android:label="@string/app_name"
+            android:icon="@drawable/gear">
+        <activity
+                android:name=".main.MainActivity"
+                android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -16,7 +20,10 @@
                 android:name=".detalle.DetailActivity"
                 android:label="Detalle"/>
         <activity
-                android:name=".login.LoginActivity"
+                android:name=".security.LoginActivity"
                 android:label="Login"/>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 </manifest>
